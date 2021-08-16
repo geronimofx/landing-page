@@ -1,70 +1,164 @@
 body{
     font-family: 'Playfair Display', serif;
-    /* font-size: 2em; */
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     background-color: rgba(16, 16, 175, 0.753);
     height: 100%;
+    text-align: center;
 }
 
-h1, h2, h3, h4, p{
-    color: black;
+main > section{
+    width: 100%;
+}
+
+.logo{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.logo-size{
+    font-size: 30px;
+}
+
+.logo > img{
+    margin-right: 20px;
+}
+
+button{
+    height: 30px;
+    color: rgba(16, 16, 175, 0.753);
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(255, 255, 48);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(192, 192, 6)
+}
+
+.button{
+    font-size: 15px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 35px;
+}
+
+h1, h2, h3, h4, p, label{
+    color: rgba(245, 245, 245, 0.822);
+}
+
+h3{
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .bold{
-    font-weight: bolder;
+    font-weight: bold;
 }
 
-section{
-    display: grid;
-    /* height: 25vh; */
-}
-
-section > div{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1em;
-}
-
-/* .tituloH2{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-} */
-
-.tituloH2 > h2{
-    margin-bottom: 5px;
-}
-
-main > section > div > ul{
+body > .container{
+    margin-top: 50px;
     display: flex;
-}
-
-.topic{
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    margin-bottom: 10px;
-}
-
-.cards{
-    width: 25vw;
-    justify-content: space-between;
-}
-
-main > section > div > ul > li > div{
-    display: grid;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+body > .container > .style_section2 > .bloco{
+    display: flex;
+    grid-template-columns: repeat(3, 35em);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+body > .container > .style_section2 > .bloco > .cards{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* gap: 50px; */
+    height: 300px;
+    width: 550px;
+    /* border-style: solid;
+    border-width: 0.5px;
+    border-color: rgba(255, 248, 220, 0.493); */
+}
+
+.select:hover{
+    background-color: rgb(66, 66, 180);
+    width: 600px;
+    height: 100%;
 }
 
 .text{
+    margin-top: 35px;
+}
+
+.text > p{
+    margin-bottom: 10px;
+}
+
+.topic{
+    margin: 15px;
+}
+
+.form{
     display: grid;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    height: 100%;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.button2{
+    background: white;
+    border-radius: 10px;
+    border-style: none;
+    width: 70px;
+}
+
+.button2:hover{
+    background-color: whitesmoke;
+}
+
+input{
+    margin-top: 5px;
+    width: 20vw;
+    height: 3vh;
+    border-radius: 5px;
+    border-style: none;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > .rodape{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.logo-rodape{
+    font-size: 15px;
+}
+
+.redes-sociais{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
