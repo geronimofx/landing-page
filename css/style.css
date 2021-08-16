@@ -1,0 +1,70 @@
+body{
+    font-family: 'Playfair Display', serif;
+    /* font-size: 2em; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(16, 16, 175, 0.753);
+    height: 100%;
+}
+
+h1, h2, h3, h4, p{
+    color: black;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+section{
+    display: grid;
+    /* height: 25vh; */
+}
+
+section > div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+/* .tituloH2{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+} */
+
+.tituloH2 > h2{
+    margin-bottom: 5px;
+}
+
+main > section > div > ul{
+    display: flex;
+}
+
+.topic{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 10px;
+}
+
+.cards{
+    width: 25vw;
+    justify-content: space-between;
+}
+
+main > section > div > ul > li > div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
