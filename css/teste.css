@@ -13,7 +13,7 @@ h1, h2, h3, h4, p{
 }
 
 .bold{
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 body > .container{
@@ -24,14 +24,30 @@ body > .container{
 }
 
 
-body > .container > .bloco{
-    display: grid;
+body > .container > .style_section2 > .bloco{
+    display: flex;
     grid-template-columns: repeat(3, 35em);
+    gap: 20px;
     align-items: center;
+    justify-content: center;
 }
 
-body > .style_section2 > .container > .bloco > .cards{
+body > .container > .style_section2 > .bloco > .cards{
     display: flex;
     align-items: center;
     justify-content: center;
+    /* gap: 50px; */
+    height: 300px;
+    width: 550px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: rgba(255, 248, 220, 0.493);
+}
+
+.text{
+    margin-top: 10px;
+}
+
+.text > p{
+    margin-bottom: 10px;
 }
