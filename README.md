@@ -1,4 +1,4 @@
-# Criação de uma "landing-page" durante etapa do processo seletivo para a empresa [Lucranco com Crédito](https://www.lucrandocomcredito.com.br/).
+# Criação de uma "landing-page" durante etapa do processo seletivo para a empresa [Lucrando com Crédito](https://www.lucrandocomcredito.com.br/).
 
 A etapa do processo seletivo tinha como objetivo criar uma landing-page de uma página web com tema livre ficando a critério e craitivadade do candidato sobre qual tema fazer. 
     
